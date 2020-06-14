@@ -1,0 +1,11 @@
+I"¦<p>A suite of Julia packages providing efficient and intuitive tools for performing Bayesian inference for diffusion processes.</p>
+
+<p><a href="https://github.com/JuliaDiffusionBayes">JuliaDiffusionBayes</a> currently comprises of five main packages:</p>
+<ul>
+  <li><a href="https://github.com/JuliaDiffusionBayes/DiffusionDefinition.jl">DiffusionDefinition.jl</a>: makes it possible to define diffusion processes and sample from their laws</li>
+  <li><a href="https://github.com/JuliaDiffusionBayes/ObservationSchemes.jl">ObservationSchemes.jl</a>: provides a systematic way of encoding discrete-time observations for stochastic processes</li>
+  <li><a href="https://github.com/JuliaDiffusionBayes/GuidedProposals.jl">GuidedProposals.jl</a>: is responsible for defining and sampling conditioned diffusion processes</li>
+  <li><a href="https://github.com/JuliaDiffusionBayes/ExtensibleMCMC.jl">ExtensibleMCMC.jl</a>: a modular implementation of the Markov chain Monte Carlo (MCMC) algorithms</li>
+  <li><a href="https://github.com/JuliaDiffusionBayes/DiffusionMCMC.jl">DiffusionMCMC.jl</a>: Markov chain Monte Carlo (MCMC) algorithms for doing inference for diffusion processes</li>
+</ul>
+:ET

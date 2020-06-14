@@ -1,0 +1,10 @@
+I"I<p><strong>This is joint work with <a href="http://www.math.chalmers.se/~smoritz/index.html">Moritz Schauer</a> and <a href="https://diamweb.ewi.tudelft.nl/~meulen/">Frank van der Meulen</a></strong></p>
+
+<h2 id="abstract">Abstract</h2>
+<blockquote>
+  <p>Suppose $X$ is a multivariate diffusion process that is observed discretely in time. At each observation time, a linear transformation of the state of the process is observed with noise. The smoothing problem consists of recovering the path of the process, consistent with the observations. We derive a novel Markov Chain Monte Carlo algorithm to sample from the exact smoothing distribution. The resulting algorithm is called the Backward Filtering Forward Guiding (BFFG) algorithm. We extend the algorithm to include parameter estimation. The proposed method relies on guided proposals introduced in Schauer et al. (2017). We illustrate its efficiency in a number of challenging problems.</p>
+</blockquote>
+
+<h2 id="additional-info">Additional info</h2>
+<p>The paper is available on <a href="https://arxiv.org/abs/1712.03807">arXiv</a></p>
+:ET

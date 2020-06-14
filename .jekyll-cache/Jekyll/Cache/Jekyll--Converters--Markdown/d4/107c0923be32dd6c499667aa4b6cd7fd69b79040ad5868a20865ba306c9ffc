@@ -1,0 +1,8 @@
+I"P<blockquote>
+  <p>A Julia package for efficient sampling of conditioned diffusions.</p>
+</blockquote>
+
+<p><a href="https://github.com/JuliaDiffusionBayes/GuidedProposals.jl">GuidedProposals.jl</a> uses the guided proposals algorithm introduced by <a href="https://projecteuclid.org/euclid.bj/1494316837">M. Schauer, F. van der Meulen, H. van Zanten</a> [<a href="https://arxiv.org/abs/1311.3606">arXiv</a>], using a computational framework described <a href="/publication/2020/03/02/continuous-discrete-smoothing.html">here</a>. It provides efficient and easy to use routines for sampling conditioned diffusions.</p>
+
+<p>It is a part of a larger suite of packages <a href="https://github.com/JuliaDiffusionBayes">JuliaDiffusionBayes</a>—a collection of efficient and intuitive tools for performing Bayesian inference for diffusion processes.</p>
+:ET

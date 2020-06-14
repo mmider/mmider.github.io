@@ -1,0 +1,39 @@
+I"H
+<p><a href="https://doi.org/10.5281/zenodo.3446184"><img align="bottom" src="https://zenodo.org/badge/DOI/10.5281/zenodo.3446185.svg" title="DOI" alt="DOI BridgeSDEInference.jl" /></a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="https://github.com/mmider"><img alt="mmider" src="https://avatars1.githubusercontent.com/u/15090340?v=4&amp;s=117 width=117" /></a></th>
+      <th style="text-align: center"><a href="https://github.com/mschauer"><img alt="mschauer" src="https://avatars1.githubusercontent.com/u/1923437?v=4&amp;s=117 width=117" /></a></th>
+      <th style="text-align: center"><a href="https://github.com/SebaGraz"><img alt="SebaGraz" src="https://avatars0.githubusercontent.com/u/43820633?v=4&amp;s=117 width=117" /></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="https://github.com/mmider">mmider</a></td>
+      <td style="text-align: center"><a href="https://github.com/mschauer">mschauer</a></td>
+      <td style="text-align: center"><a href="https://github.com/SebaGraz">SebaGraz</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>BridgeSDEInference.jl</strong> is a software package for <tt>Julia</tt> programming language in which we implement various inference algorithms for diffusion processes based on <em>Guided proposals</em>. It is hosted on <a href="https://github.com/mmider/BridgeSDEInference.jl">github</a> and can be installed using <tt>Julia</tt>’s built-in package manager:</p>
+
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">using</span> <span class="n">Pkg</span>
+<span class="n">Pkg</span><span class="o">.</span><span class="n">add</span><span class="x">(</span><span class="s">"BridgeSDEInference"</span><span class="x">)</span>
+</code></pre></div></div>
+<p>We provide routines for running an MCMC sampler that infers posterior distribution over the unknown parameters $\theta$ governing the stochastic differential equation</p>
+
+\[dX_t = b_{\theta}(t,X_t)dt + \sigma_{\theta}(t,X_t)dW_t,\quad t\in[0,T],\quad X_0=x_0,\]
+
+<p>from discrete-time, <em>partial and noisy observations</em> of the process $X$:</p>
+
+\[V_{t_i}=L_i X_{t_i} + \xi_i,\quad i=1,\dots,N\]
+
+<p>where $\xi_i$ are iid Gaussian random variables and $L_i\in R^{m_i\times d}$.</p>
+
+<p>We also provide routines for inference from <em>first passage time observations</em>, as well as for <em>mixed effect models</em> (the last one is still in development).</p>
+
+<p>Check out the <a href="https://mmider.github.io/BridgeSDEInference.jl/dev">documentation</a> for more details.</p>
+:ET

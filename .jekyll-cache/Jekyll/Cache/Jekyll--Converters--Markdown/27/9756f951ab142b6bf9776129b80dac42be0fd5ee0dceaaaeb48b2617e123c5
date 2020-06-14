@@ -1,0 +1,10 @@
+I"�<p>This is a corrigendum to a paper originally authored by <a href="http://web.math.ku.dk/~michael/">Michael Sørensen</a> and <a href="https://www.math.ku.dk/english/about/news/new-names/mogens-bladt-professor/">Mogens Bladt</a>.</p>
+
+<h2 id="abstract">Abstract</h2>
+<blockquote>
+  <p>We correct an error in Theorem 2.1 in <a href="https://projecteuclid.org/euclid.bj/1393594001">Bladt and Sørensen (2014)</a>, where the initial distribution of an auxiliary diffusion process that is used to describe the distribution of the proposed approximate diffusion bridge is wrong. As a consequence, we also correct the pseudo marginal Metropolis-Hastings algorithm that has an exact diffusion bridge as its target distribution. The same auxiliary diffusion plays a central role in the algorithm.</p>
+</blockquote>
+
+<h2 id="additional-info">Additional info</h2>
+<p>The paper is available <a href="http://web.math.ku.dk/~michael/CorrigendumBernoulli.pdf">here</a>.</p>
+:ET
